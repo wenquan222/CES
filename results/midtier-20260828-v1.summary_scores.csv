@@ -58,7 +58,7 @@ midtier-20260828-v1,DeepSeek-V3,D6,T2,Expert,1,1,0,0,0,0,0.875,0.875,True,none (
 midtier-20260828-v1,DeepSeek-V3,D6,T2,Intermediate,7,7,0,0,0,0,0.5357142857142857,0.5357142857142857,False,item-cluster bootstrap B=20000 seed=20260805,0.4107142857142857,0.6785714285714286,1.0,0.6456695649333253,1.0,,,,0.0,True
 midtier-20260828-v1,DeepSeek-V3,D6,T3,Expert,4,4,0,0,0,0,0.95,0.95,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
 midtier-20260828-v1,DeepSeek-V3,D6,T3,Intermediate,4,4,0,0,0,0,0.825,0.825,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
-midtier-20260828-v1,DeepSeek-V3,D6,T4,Intermediate,4,4,1,0,0,0,0.75,0.75,True,wilson,0.3006418425824105,0.9544127391902977,,,,0.75,0.75,1.0,,True
+midtier-20260828-v1,DeepSeek-V3,D6,T4,Intermediate,4,4,0,0,0,0,1.0,1.0,True,wilson,0.5101091635454165,1.0,,,,1.0,1.0,1.0,,True
 midtier-20260828-v1,GLM-4-32B,D1,T1,Basic,15,15,0,0,0,0,0.8666666666666667,0.8666666666666667,False,wilson,0.6211801716767842,0.9626387408969335,,,,,,,,True
 midtier-20260828-v1,GLM-4-32B,D1,T1,Expert,7,7,0,0,0,0,0.7142857142857143,0.7142857142857143,False,wilson,0.3589344518326274,0.9177810759959406,,,,,,,,True
 midtier-20260828-v1,GLM-4-32B,D1,T1,Intermediate,20,20,0,0,0,0,0.95,0.95,False,wilson,0.7638688065532648,0.9911185511992042,,,,,,,,True
@@ -118,7 +118,7 @@ midtier-20260828-v1,GLM-4-32B,D6,T2,Expert,1,1,0,0,0,0,0.875,0.875,True,none (n<
 midtier-20260828-v1,GLM-4-32B,D6,T2,Intermediate,7,7,0,0,0,0,0.5178571428571429,0.5178571428571429,False,item-cluster bootstrap B=20000 seed=20260805,0.375,0.6428571428571429,1.0,0.6456695649333253,1.0,,,,0.0,True
 midtier-20260828-v1,GLM-4-32B,D6,T3,Expert,4,4,0,0,0,0,0.75,0.75,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
 midtier-20260828-v1,GLM-4-32B,D6,T3,Intermediate,4,4,0,0,0,0,0.8,0.8,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
-midtier-20260828-v1,GLM-4-32B,D6,T4,Intermediate,4,4,1,0,0,0,0.5,0.5,True,wilson,0.1500389891521544,0.8499610108478456,,,,0.5,0.5,1.0,,True
+midtier-20260828-v1,GLM-4-32B,D6,T4,Intermediate,4,4,0,0,0,0,0.75,0.75,True,wilson,0.3006418425824105,0.9544127391902977,,,,0.75,0.75,1.0,,True
 midtier-20260828-v1,Hunyuan-A13B,D1,T1,Basic,15,15,0,0,0,0,0.7333333333333333,0.7333333333333333,False,wilson,0.480495659440201,0.8910254667430735,,,,,,,,True
 midtier-20260828-v1,Hunyuan-A13B,D1,T1,Expert,7,7,0,0,0,0,0.8571428571428571,0.8571428571428571,False,wilson,0.486872170725691,0.9743203756552553,,,,,,,,True
 midtier-20260828-v1,Hunyuan-A13B,D1,T1,Intermediate,20,20,0,0,0,0,0.8,0.8,False,wilson,0.5839825677481129,0.9193423374202,,,,,,,,True
@@ -238,4 +238,4 @@ midtier-20260828-v1,Ling-flash-2.0,D6,T2,Expert,1,1,0,0,0,0,0.75,0.75,True,none 
 midtier-20260828-v1,Ling-flash-2.0,D6,T2,Intermediate,7,7,0,0,0,0,0.5714285714285714,0.5714285714285714,False,item-cluster bootstrap B=20000 seed=20260805,0.4642857142857143,0.6785714285714286,1.0,0.6456695649333253,1.0,,,,0.0,True
 midtier-20260828-v1,Ling-flash-2.0,D6,T3,Expert,4,4,0,0,0,0,0.8500000000000001,0.8500000000000001,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
 midtier-20260828-v1,Ling-flash-2.0,D6,T3,Intermediate,4,4,0,0,0,0,0.875,0.875,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
-midtier-20260828-v1,Ling-flash-2.0,D6,T4,Intermediate,4,4,1,0,0,0,0.75,0.75,True,wilson,0.3006418425824105,0.9544127391902977,,,,0.75,0.75,1.0,,True
+midtier-20260828-v1,Ling-flash-2.0,D6,T4,Intermediate,4,4,0,0,0,0,1.0,1.0,True,wilson,0.5101091635454165,1.0,,,,1.0,1.0,1.0,,True

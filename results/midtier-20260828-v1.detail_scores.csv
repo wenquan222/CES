@@ -366,7 +366,7 @@ DeepSeek-V3,D6-T3-006,0,T3,D6,Intermediate,0.9,False,False,,,,,1,0.0,True,,,,,,,
 DeepSeek-V3,D6-T3-007,0,T3,D6,Intermediate,1.0,False,False,,,,,1,0.0,True,,,,,,,,,midtier-20260828-v1,True
 DeepSeek-V3,D6-T3-008,0,T3,D6,Expert,1.0,False,False,,,,,1,0.0,True,,,,,,,,,midtier-20260828-v1,True
 DeepSeek-V3,D6-T4-001,0,T4,D6,Intermediate,1.0,False,False,,,,,,,,,13,13,1.0,True,False,OK,1.0,midtier-20260828-v1,True
-DeepSeek-V3,D6-T4-002,0,T4,D6,Intermediate,0.0,True,False,,tampering_rejected,,,,,,,0,12,0.0,False,,TAMPERING_REJECTED,0.0,midtier-20260828-v1,True
+DeepSeek-V3,D6-T4-002,0,T4,D6,Intermediate,1.0,False,False,,,,,,,,,11,12,1.0,True,False,OK,1.0,midtier-20260828-v1,True
 DeepSeek-V3,D6-T4-003,0,T4,D6,Intermediate,1.0,False,False,,,,,,,,,10,10,1.0,True,False,OK,1.0,midtier-20260828-v1,True
 DeepSeek-V3,D6-T4-004,0,T4,D6,Intermediate,1.0,False,False,,,,,,,,,16,16,1.0,True,False,OK,1.0,midtier-20260828-v1,True
 GLM-4-32B,D1-T1-001,0,T1,D1,Basic,1.0,False,False,,,,,,,,,,,,,,,,midtier-20260828-v1,True
@@ -736,7 +736,7 @@ GLM-4-32B,D6-T3-006,0,T3,D6,Intermediate,1.0,False,False,,,,,1,0.0,True,,,,,,,,,
 GLM-4-32B,D6-T3-007,0,T3,D6,Intermediate,1.0,False,False,,,,,1,0.0,True,,,,,,,,,midtier-20260828-v1,True
 GLM-4-32B,D6-T3-008,0,T3,D6,Expert,1.0,False,False,,,,,1,0.0,True,,,,,,,,,midtier-20260828-v1,True
 GLM-4-32B,D6-T4-001,0,T4,D6,Intermediate,1.0,False,False,,,,,,,,,13,13,1.0,True,False,OK,1.0,midtier-20260828-v1,True
-GLM-4-32B,D6-T4-002,0,T4,D6,Intermediate,0.0,True,False,,tampering_rejected,,,,,,,0,12,0.0,False,,TAMPERING_REJECTED,0.0,midtier-20260828-v1,True
+GLM-4-32B,D6-T4-002,0,T4,D6,Intermediate,1.0,False,False,,,,,,,,,11,12,1.0,True,False,OK,1.0,midtier-20260828-v1,True
 GLM-4-32B,D6-T4-003,0,T4,D6,Intermediate,1.0,False,False,,,,,,,,,10,10,1.0,True,False,OK,1.0,midtier-20260828-v1,True
 GLM-4-32B,D6-T4-004,0,T4,D6,Intermediate,0.0,False,False,,,,,,,,,11,16,0.5,False,False,FUNCTIONAL_ASSERTION,0.0,midtier-20260828-v1,True
 Hunyuan-A13B,D1-T1-001,0,T1,D1,Basic,1.0,False,False,,,,,,,,,,,,,,,,midtier-20260828-v1,True
@@ -1476,6 +1476,6 @@ Ling-flash-2.0,D6-T3-006,0,T3,D6,Intermediate,1.0,False,False,,,,,1,0.0,True,,,,
 Ling-flash-2.0,D6-T3-007,0,T3,D6,Intermediate,1.0,False,False,,,,,1,0.0,True,,,,,,,,,midtier-20260828-v1,True
 Ling-flash-2.0,D6-T3-008,0,T3,D6,Expert,1.0,False,False,,,,,1,0.0,True,,,,,,,,,midtier-20260828-v1,True
 Ling-flash-2.0,D6-T4-001,0,T4,D6,Intermediate,1.0,False,False,,,,,,,,,13,13,1.0,True,False,OK,1.0,midtier-20260828-v1,True
-Ling-flash-2.0,D6-T4-002,0,T4,D6,Intermediate,0.0,True,False,,tampering_rejected,,,,,,,0,12,0.0,False,,TAMPERING_REJECTED,0.0,midtier-20260828-v1,True
+Ling-flash-2.0,D6-T4-002,0,T4,D6,Intermediate,1.0,False,False,,,,,,,,,11,12,1.0,True,False,OK,1.0,midtier-20260828-v1,True
 Ling-flash-2.0,D6-T4-003,0,T4,D6,Intermediate,1.0,False,False,,,,,,,,,10,10,1.0,True,False,OK,1.0,midtier-20260828-v1,True
 Ling-flash-2.0,D6-T4-004,0,T4,D6,Intermediate,1.0,False,False,,,,,,,,,16,16,1.0,True,False,OK,1.0,midtier-20260828-v1,True

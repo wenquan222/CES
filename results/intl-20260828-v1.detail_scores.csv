@@ -1106,6 +1106,6 @@ Llama-4-Maverick,D6-T3-006,0,T3,D6,Intermediate,1.0,False,False,,,,,1,0.0,True,,
 Llama-4-Maverick,D6-T3-007,0,T3,D6,Intermediate,0.9,False,False,,,,,1,0.0,True,,,,,,,,,intl-20260828-v1,True
 Llama-4-Maverick,D6-T3-008,0,T3,D6,Expert,1.0,False,False,,,,,1,0.0,True,,,,,,,,,intl-20260828-v1,True
 Llama-4-Maverick,D6-T4-001,0,T4,D6,Intermediate,1.0,False,False,,,,,,,,,13,13,1.0,True,False,OK,1.0,intl-20260828-v1,True
-Llama-4-Maverick,D6-T4-002,0,T4,D6,Intermediate,0.0,True,False,,tampering_rejected,,,,,,,0,12,0.0,False,,TAMPERING_REJECTED,0.0,intl-20260828-v1,True
+Llama-4-Maverick,D6-T4-002,0,T4,D6,Intermediate,1.0,False,False,,,,,,,,,11,12,1.0,True,False,OK,1.0,intl-20260828-v1,True
 Llama-4-Maverick,D6-T4-003,0,T4,D6,Intermediate,1.0,False,False,,,,,,,,,10,10,1.0,True,False,OK,1.0,intl-20260828-v1,True
 Llama-4-Maverick,D6-T4-004,0,T4,D6,Intermediate,1.0,False,False,,,,,,,,,16,16,1.0,True,False,OK,1.0,intl-20260828-v1,True
