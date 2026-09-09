@@ -52,7 +52,7 @@ In the paper the judge is Qwen3.5-397B, a model family disjoint from the evaluat
 
 ## Notes
 
-- The workbook is edition v20260902. Its `00-Overview` sheet still carries the stamp `v20260807` of the edition the evaluation runs were anchored to; the two editions differ only in the `reviewed_by` column.
+- The workbook is edition v20260902. The evaluation runs were anchored to edition v20260807, which differs from it only in the `reviewed_by` column and the version stamp on the `00-Overview` sheet.
 - Items are bound to specific standard editions, library versions and dates and will need review as those change.
 - The evaluation pipeline, the archived model responses and judge outputs will be released with the published paper.
 
@@ -68,7 +68,10 @@ https://github.com/wenquan222/CES
 
 ## License
 
-To be announced with the published paper. Until then all rights are reserved; the items may be used for research evaluation with attribution.
+- The benchmark data, that is the workbook, the code-task statements and metadata, the rubrics and the result tables, is released under the Creative Commons Attribution 4.0 International license (`LICENSE`).
+- The code, that is `prompts/prompts.py` and the `test.py` and `solution.py` files under `code_tasks/`, is released under the MIT license (`LICENSE-CODE`).
+
+Please attribute by citing the paper or this repository.
 
 ## Contact
 
