@@ -1,0 +1,26 @@
+{
+  "id": "D2-T4-003",
+  "domain": "D2",
+  "subdomain": null,
+  "task_type": "T4",
+  "difficulty": "Intermediate",
+  "sub_topic": "PFA",
+  "function_signature": "def pfa_recover_aes_last_round_key(corrupted_sbox_value: int, ciphertexts: list[bytes], byte_idx: int) -> int",
+  "expected_pass_rate": ">= 0.85 (13 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "Brute-force decryption for verification is not allowed (a statistical method is required)",
+    "in the frequency count, if several byte values tie for the lowest, take the smallest byte value",
+    "an empty list or an element that is not 16 bytes raises ValueError",
+    "corrupted_sbox_value/byte_idx out of range raises ValueError",
+    "no statistics library other than scipy/numpy may be used",
+    "determinism"
+  ],
+  "source": "Zhang-Lou-Zhao *Persistent Fault Analysis on Block Ciphers*, CHES 2018; 《密码工程》(Cryptographic Engineering, in Chinese) Ch.11 §5",
+  "author": "Zhou Wenquan",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-05-27",
+  "test_count": 13,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.85
+}

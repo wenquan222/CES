@@ -1,0 +1,24 @@
+{
+  "id": "D4-T4-004",
+  "domain": "D4",
+  "subdomain": "FI",
+  "task_type": "T4",
+  "difficulty": "Intermediate",
+  "sub_topic": "Redundancy",
+  "function_signature": "def tmr_voter(a: bytes, b: bytes, c: bytes) -> bytes",
+  "expected_pass_rate": ">= 0.85 (10 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "source": "TMR practice in aerospace electronics standards",
+  "author": "Liang Jing",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-06-16",
+  "test_count": 10,
+  "constraints": [
+    "The three inputs have the same length, or ValueError",
+    "bit-wise 2-of-3 majority voting: majority = (a & b) | (a & c) | (b & c). When at least two of the three bytes are equal this formula agrees exactly with \"take the byte value occurring ≥2 times\"; when all three differ pairwise, this formula governs (giving a composite byte equal to none of the inputs)",
+    "a constant-time implementation (no if/else branch selecting on a secret value)",
+    "no cryptographic library is called"
+  ],
+  "language": "en",
+  "expected_pass_rate_numeric": 0.85
+}

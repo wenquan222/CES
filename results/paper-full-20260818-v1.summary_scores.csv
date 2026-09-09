@@ -1,0 +1,241 @@
+run_id,model,domain,task_type,difficulty,n,n_samples,n_needs_review,n_excluded_from_main,n_samples_unscored,n_items_unscored,mean_score,mean_score_incl_review,small_cell,ci_method,ci_low,ci_high,t2_judgment_accuracy,t2_verdict_ci_low,t2_verdict_ci_high,t4_pass_at_1,diagnostic_functional_threshold_rate,t4_performance_pass_rate,judge_mean_score_range,paper_eligible
+paper-full-20260818-v1,DeepSeek-V4-Pro,D1,T1,Basic,15,15,0,0,0,0,1.0,1.0,False,wilson,0.7961166989641604,1.0,,,,,,,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D1,T1,Expert,7,7,0,0,0,0,0.8571428571428571,0.8571428571428571,False,wilson,0.486872170725691,0.9743203756552553,,,,,,,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D1,T1,Intermediate,20,20,0,0,0,0,1.0,1.0,False,wilson,0.838874841947188,0.9999999999999999,,,,,,,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D1,T2,Basic,5,5,0,0,0,0,0.55,0.55,False,item-cluster bootstrap B=20000 seed=20260805,0.225,0.825,0.8,0.37553462976253477,0.9637758913675682,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D1,T2,Expert,3,3,0,0,0,0,0.875,0.875,True,"none (descriptive, n<5)",,,1.0,0.43850296824496815,1.0,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D1,T2,Intermediate,9,9,0,0,0,0,0.4861111111111111,0.4861111111111111,False,item-cluster bootstrap B=20000 seed=20260805,0.2916666666666667,0.6527777777777778,0.7777777777777778,0.45258896910699736,0.9367748928821513,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D1,T3,Basic,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D1,T3,Expert,8,8,0,0,0,0,0.6791666666666667,0.6791666666666667,False,item-cluster bootstrap B=20000 seed=20260805,0.5791666666666667,0.7833333333333332,,,,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D1,T3,Intermediate,6,6,0,0,0,0,0.8277777777777778,0.8277777777777778,False,item-cluster bootstrap B=20000 seed=20260805,0.6666666666666666,0.9666666666666667,,,,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D1,T4,Basic,2,2,0,0,0,0,1.0,1.0,True,wilson,0.34238022750666547,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D1,T4,Expert,3,3,0,0,0,0,0.6666666666666666,0.6666666666666666,True,wilson,0.2076596008020547,0.9385080552796013,,,,0.6666666666666666,1.0,1.0,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D1,T4,Intermediate,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D2,T1,Basic,13,13,0,0,0,0,0.9230769230769231,0.9230769230769231,False,wilson,0.6668604907890129,0.9862895787574429,,,,,,,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D2,T1,Expert,6,6,0,0,0,0,1.0,1.0,False,wilson,0.6096657120978477,1.0,,,,,,,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D2,T1,Intermediate,11,11,0,0,0,0,0.9090909090909091,0.9090909090909091,False,wilson,0.6226415635484137,0.9837678271141146,,,,,,,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D2,T2,Basic,4,4,0,0,0,0,0.375,0.375,True,"none (descriptive, n<5)",,,0.75,0.3006418425824105,0.9544127391902977,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D2,T2,Intermediate,4,4,0,0,0,0,0.40625,0.40625,True,"none (descriptive, n<5)",,,0.75,0.3006418425824105,0.9544127391902977,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D2,T3,Expert,5,5,0,0,0,0,0.74,0.74,False,item-cluster bootstrap B=20000 seed=20260805,0.5800000000000001,0.8800000000000001,,,,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D2,T3,Intermediate,3,3,0,0,0,0,0.9,0.9,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D2,T4,Basic,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D2,T4,Intermediate,3,3,0,0,0,0,1.0,1.0,True,wilson,0.43850296824496815,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D3,T1,Basic,14,14,0,0,0,0,1.0,1.0,False,wilson,0.7846891972623734,0.9999999999999999,,,,,,,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D3,T1,Expert,9,9,0,0,0,0,1.0,1.0,False,wilson,0.7008549515804674,1.0,,,,,,,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D3,T1,Intermediate,21,21,0,0,0,0,0.9523809523809523,0.9523809523809523,False,wilson,0.7733063992587812,0.9915440121901733,,,,,,,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D3,T2,Basic,3,3,0,0,0,0,0.20833333333333334,0.20833333333333334,True,"none (descriptive, n<5)",,,0.3333333333333333,0.06149194472039865,0.7923403991979453,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D3,T2,Expert,5,5,0,0,0,0,0.425,0.425,False,item-cluster bootstrap B=20000 seed=20260805,0.175,0.675,0.8,0.37553462976253477,0.9637758913675682,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D3,T2,Intermediate,7,7,0,0,0,0,0.5714285714285714,0.5714285714285714,False,item-cluster bootstrap B=20000 seed=20260805,0.32142857142857145,0.7857142857142857,0.8571428571428571,0.486872170725691,0.9743203756552553,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D3,T3,Expert,8,8,0,0,0,0,0.7166666666666667,0.7166666666666667,False,item-cluster bootstrap B=20000 seed=20260805,0.5791666666666667,0.85,,,,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D3,T3,Intermediate,6,6,0,0,0,0,0.8222222222222223,0.8222222222222223,False,item-cluster bootstrap B=20000 seed=20260805,0.6888888888888888,0.9444444444444445,,,,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D3,T4,Basic,3,3,0,0,0,0,1.0,1.0,True,wilson,0.43850296824496815,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D3,T4,Expert,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D3,T4,Intermediate,3,3,0,0,0,0,1.0,1.0,True,wilson,0.43850296824496815,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D4,T1,Basic,9,9,0,0,0,0,1.0,1.0,False,wilson,0.7008549515804674,1.0,,,,,,,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D4,T1,Expert,6,6,0,0,0,0,1.0,1.0,False,wilson,0.6096657120978477,1.0,,,,,,,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D4,T1,Intermediate,18,18,0,0,0,0,0.9444444444444444,0.9444444444444444,False,wilson,0.7424269921812814,0.9901248090216965,,,,,,,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D4,T2,Basic,3,3,0,0,0,0,0.6666666666666666,0.6666666666666666,True,"none (descriptive, n<5)",,,1.0,0.43850296824496815,1.0,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D4,T2,Expert,3,3,0,0,0,0,0.125,0.125,True,"none (descriptive, n<5)",,,0.6666666666666666,0.2076596008020547,0.9385080552796013,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D4,T2,Intermediate,5,5,0,0,0,0,0.575,0.575,False,item-cluster bootstrap B=20000 seed=20260805,0.25,0.85,0.8,0.37553462976253477,0.9637758913675682,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D4,T3,Expert,3,3,0,0,0,0,0.8666666666666666,0.8666666666666666,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D4,T3,Intermediate,7,7,0,0,0,0,0.6142857142857144,0.6142857142857144,False,item-cluster bootstrap B=20000 seed=20260805,0.37142857142857144,0.8285714285714286,,,,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D4,T4,Basic,4,4,0,0,0,0,1.0,1.0,True,wilson,0.5101091635454165,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D4,T4,Expert,1,1,0,0,0,0,0.0,0.0,True,none (n<2),,,,,,0.0,0.0,1.0,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D4,T4,Intermediate,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D5,T1,Basic,8,8,0,0,0,0,1.0,1.0,False,wilson,0.6755924351161318,1.0,,,,,,,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D5,T1,Expert,10,10,0,0,0,0,1.0,1.0,False,wilson,0.7224672001371218,0.9999999999999999,,,,,,,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D5,T1,Intermediate,12,12,0,0,0,0,0.9166666666666666,0.9166666666666666,False,wilson,0.646120088858892,0.9851349055950824,,,,,,,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D5,T2,Expert,2,2,0,0,0,0,0.625,0.625,True,"none (descriptive, n<5)",,,1.0,0.34238022750666547,1.0,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D5,T2,Intermediate,6,6,0,0,0,0,0.375,0.375,False,item-cluster bootstrap B=20000 seed=20260805,0.16666666666666666,0.5833333333333334,0.6666666666666666,0.29999331513839955,0.9032285888942164,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D5,T3,Expert,4,4,0,0,0,0,0.7,0.7,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D5,T3,Intermediate,4,4,0,0,0,0,0.875,0.875,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D5,T4,Basic,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D5,T4,Intermediate,3,3,0,0,0,0,1.0,1.0,True,wilson,0.43850296824496815,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D6,T1,Basic,8,8,0,0,0,0,1.0,1.0,False,wilson,0.6755924351161318,1.0,,,,,,,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D6,T1,Expert,10,10,0,0,0,0,1.0,1.0,False,wilson,0.7224672001371218,0.9999999999999999,,,,,,,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D6,T1,Intermediate,12,12,0,0,0,0,1.0,1.0,False,wilson,0.7575059933447693,1.0,,,,,,,,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D6,T2,Expert,1,1,0,0,0,0,0.875,0.875,True,none (n<2),,,1.0,,,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D6,T2,Intermediate,7,7,0,0,0,0,0.48214285714285715,0.48214285714285715,False,item-cluster bootstrap B=20000 seed=20260805,0.26785714285714285,0.6964285714285714,0.8571428571428571,0.486872170725691,0.9743203756552553,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D6,T3,Expert,4,4,0,0,0,0,0.925,0.925,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D6,T3,Intermediate,4,4,0,0,0,0,0.85,0.85,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,DeepSeek-V4-Pro,D6,T4,Intermediate,4,4,0,0,0,0,1.0,1.0,True,wilson,0.5101091635454165,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,GLM-5.2,D1,T1,Basic,15,15,0,0,0,0,1.0,1.0,False,wilson,0.7961166989641604,1.0,,,,,,,,True
+paper-full-20260818-v1,GLM-5.2,D1,T1,Expert,7,7,0,0,0,0,1.0,1.0,False,wilson,0.6456695649333253,1.0,,,,,,,,True
+paper-full-20260818-v1,GLM-5.2,D1,T1,Intermediate,20,20,0,0,0,0,1.0,1.0,False,wilson,0.838874841947188,0.9999999999999999,,,,,,,,True
+paper-full-20260818-v1,GLM-5.2,D1,T2,Basic,5,5,0,0,0,0,0.55,0.55,False,item-cluster bootstrap B=20000 seed=20260805,0.225,0.825,0.8,0.37553462976253477,0.9637758913675682,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D1,T2,Expert,3,3,0,0,0,0,0.9166666666666666,0.9166666666666666,True,"none (descriptive, n<5)",,,1.0,0.43850296824496815,1.0,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D1,T2,Intermediate,9,9,0,0,0,0,0.5694444444444444,0.5694444444444444,False,item-cluster bootstrap B=20000 seed=20260805,0.3194444444444444,0.7916666666666666,0.7777777777777778,0.45258896910699736,0.9367748928821513,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D1,T3,Basic,1,1,0,0,0,0,0.6666666666666666,0.6666666666666666,True,none (n<2),,,,,,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D1,T3,Expert,8,8,0,0,0,0,0.6416666666666667,0.6416666666666667,False,item-cluster bootstrap B=20000 seed=20260805,0.5125,0.7583333333333333,,,,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D1,T3,Intermediate,6,6,0,0,0,0,0.9,0.9,False,item-cluster bootstrap B=20000 seed=20260805,0.7999999999999999,1.0,,,,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D1,T4,Basic,2,2,0,0,0,0,1.0,1.0,True,wilson,0.34238022750666547,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,GLM-5.2,D1,T4,Expert,3,3,0,0,0,0,1.0,1.0,True,wilson,0.43850296824496815,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,GLM-5.2,D1,T4,Intermediate,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,GLM-5.2,D2,T1,Basic,13,13,0,0,0,0,1.0,1.0,False,wilson,0.7719046276458112,1.0,,,,,,,,True
+paper-full-20260818-v1,GLM-5.2,D2,T1,Expert,6,6,0,0,0,0,1.0,1.0,False,wilson,0.6096657120978477,1.0,,,,,,,,True
+paper-full-20260818-v1,GLM-5.2,D2,T1,Intermediate,11,11,0,0,0,0,0.9090909090909091,0.9090909090909091,False,wilson,0.6226415635484137,0.9837678271141146,,,,,,,,True
+paper-full-20260818-v1,GLM-5.2,D2,T2,Basic,4,4,0,0,0,0,0.71875,0.71875,True,"none (descriptive, n<5)",,,1.0,0.5101091635454165,1.0,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D2,T2,Intermediate,4,4,0,0,0,0,0.375,0.375,True,"none (descriptive, n<5)",,,0.75,0.3006418425824105,0.9544127391902977,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D2,T3,Expert,5,5,0,0,0,0,0.7799999999999999,0.7799999999999999,False,item-cluster bootstrap B=20000 seed=20260805,0.6199999999999999,0.9199999999999999,,,,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D2,T3,Intermediate,3,3,0,0,0,0,0.9666666666666667,0.9666666666666667,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D2,T4,Basic,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,GLM-5.2,D2,T4,Intermediate,3,3,0,0,0,0,0.6666666666666666,0.6666666666666666,True,wilson,0.2076596008020547,0.9385080552796013,,,,0.6666666666666666,0.6666666666666666,1.0,,True
+paper-full-20260818-v1,GLM-5.2,D3,T1,Basic,14,14,0,0,0,0,1.0,1.0,False,wilson,0.7846891972623734,0.9999999999999999,,,,,,,,True
+paper-full-20260818-v1,GLM-5.2,D3,T1,Expert,9,9,0,0,0,0,1.0,1.0,False,wilson,0.7008549515804674,1.0,,,,,,,,True
+paper-full-20260818-v1,GLM-5.2,D3,T1,Intermediate,21,21,0,0,0,0,1.0,1.0,False,wilson,0.8453609810751603,1.0,,,,,,,,True
+paper-full-20260818-v1,GLM-5.2,D3,T2,Basic,3,3,0,0,0,0,0.5,0.5,True,"none (descriptive, n<5)",,,0.6666666666666666,0.2076596008020547,0.9385080552796013,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D3,T2,Expert,5,5,0,0,0,0,0.575,0.575,False,item-cluster bootstrap B=20000 seed=20260805,0.225,0.875,0.8,0.37553462976253477,0.9637758913675682,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D3,T2,Intermediate,7,7,0,0,0,0,0.8035714285714286,0.8035714285714286,False,item-cluster bootstrap B=20000 seed=20260805,0.6428571428571429,0.9285714285714286,1.0,0.6456695649333253,1.0,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D3,T3,Expert,8,8,0,0,0,0,0.75,0.75,False,item-cluster bootstrap B=20000 seed=20260805,0.6458333333333333,0.8666666666666667,,,,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D3,T3,Intermediate,6,6,0,0,0,0,0.8666666666666667,0.8666666666666667,False,item-cluster bootstrap B=20000 seed=20260805,0.8222222222222223,0.9277777777777777,,,,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D3,T4,Basic,3,3,0,0,0,0,1.0,1.0,True,wilson,0.43850296824496815,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,GLM-5.2,D3,T4,Expert,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,GLM-5.2,D3,T4,Intermediate,3,3,0,0,0,0,1.0,1.0,True,wilson,0.43850296824496815,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,GLM-5.2,D4,T1,Basic,9,9,0,0,0,0,1.0,1.0,False,wilson,0.7008549515804674,1.0,,,,,,,,True
+paper-full-20260818-v1,GLM-5.2,D4,T1,Expert,6,6,0,0,0,0,1.0,1.0,False,wilson,0.6096657120978477,1.0,,,,,,,,True
+paper-full-20260818-v1,GLM-5.2,D4,T1,Intermediate,18,18,0,0,0,0,1.0,1.0,False,wilson,0.8241207763533503,1.0,,,,,,,,True
+paper-full-20260818-v1,GLM-5.2,D4,T2,Basic,3,3,0,0,0,0,0.625,0.625,True,"none (descriptive, n<5)",,,1.0,0.43850296824496815,1.0,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D4,T2,Expert,3,3,0,0,0,0,0.25,0.25,True,"none (descriptive, n<5)",,,0.3333333333333333,0.06149194472039865,0.7923403991979453,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D4,T2,Intermediate,5,5,0,0,0,0,0.725,0.725,False,item-cluster bootstrap B=20000 seed=20260805,0.6,0.825,1.0,0.5655175352168389,1.0,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D4,T3,Expert,3,3,0,0,0,0,0.9333333333333332,0.9333333333333332,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D4,T3,Intermediate,7,7,0,0,0,0,0.8714285714285716,0.8714285714285716,False,item-cluster bootstrap B=20000 seed=20260805,0.7714285714285714,0.9571428571428572,,,,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D4,T4,Basic,4,4,0,0,0,0,1.0,1.0,True,wilson,0.5101091635454165,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,GLM-5.2,D4,T4,Expert,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,GLM-5.2,D4,T4,Intermediate,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,GLM-5.2,D5,T1,Basic,8,8,0,0,0,0,0.875,0.875,False,wilson,0.5291118177871563,0.9775825085499423,,,,,,,,True
+paper-full-20260818-v1,GLM-5.2,D5,T1,Expert,10,10,0,0,0,0,1.0,1.0,False,wilson,0.7224672001371218,0.9999999999999999,,,,,,,,True
+paper-full-20260818-v1,GLM-5.2,D5,T1,Intermediate,12,12,0,0,0,0,0.9166666666666666,0.9166666666666666,False,wilson,0.646120088858892,0.9851349055950824,,,,,,,,True
+paper-full-20260818-v1,GLM-5.2,D5,T2,Expert,2,2,0,0,0,0,0.625,0.625,True,"none (descriptive, n<5)",,,1.0,0.34238022750666547,1.0,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D5,T2,Intermediate,6,6,0,0,0,0,0.5,0.5,False,item-cluster bootstrap B=20000 seed=20260805,0.2708333333333333,0.7291666666666666,0.8333333333333334,0.43649717781353975,0.9699466302516921,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D5,T3,Expert,4,4,0,0,0,0,0.7,0.7,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D5,T3,Intermediate,4,4,0,0,0,0,0.925,0.925,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D5,T4,Basic,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,GLM-5.2,D5,T4,Intermediate,3,3,0,0,0,0,0.6666666666666666,0.6666666666666666,True,wilson,0.2076596008020547,0.9385080552796013,,,,0.6666666666666666,0.6666666666666666,1.0,,True
+paper-full-20260818-v1,GLM-5.2,D6,T1,Basic,8,8,0,0,0,0,1.0,1.0,False,wilson,0.6755924351161318,1.0,,,,,,,,True
+paper-full-20260818-v1,GLM-5.2,D6,T1,Expert,10,10,0,0,0,0,1.0,1.0,False,wilson,0.7224672001371218,0.9999999999999999,,,,,,,,True
+paper-full-20260818-v1,GLM-5.2,D6,T1,Intermediate,12,12,0,0,0,0,1.0,1.0,False,wilson,0.7575059933447693,1.0,,,,,,,,True
+paper-full-20260818-v1,GLM-5.2,D6,T2,Expert,1,1,0,0,0,0,0.875,0.875,True,none (n<2),,,1.0,,,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D6,T2,Intermediate,7,7,0,0,0,0,0.7321428571428571,0.7321428571428571,False,item-cluster bootstrap B=20000 seed=20260805,0.6785714285714286,0.7857142857142857,1.0,0.6456695649333253,1.0,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D6,T3,Expert,4,4,0,0,0,0,0.875,0.875,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D6,T3,Intermediate,4,4,0,0,0,0,0.9,0.9,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,GLM-5.2,D6,T4,Intermediate,4,4,0,0,0,0,1.0,1.0,True,wilson,0.5101091635454165,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,Kimi-K2.6,D1,T1,Basic,15,15,0,0,0,0,1.0,1.0,False,wilson,0.7961166989641604,1.0,,,,,,,,True
+paper-full-20260818-v1,Kimi-K2.6,D1,T1,Expert,7,7,0,0,0,0,0.8571428571428571,0.8571428571428571,False,wilson,0.486872170725691,0.9743203756552553,,,,,,,,True
+paper-full-20260818-v1,Kimi-K2.6,D1,T1,Intermediate,20,20,0,0,0,0,1.0,1.0,False,wilson,0.838874841947188,0.9999999999999999,,,,,,,,True
+paper-full-20260818-v1,Kimi-K2.6,D1,T2,Basic,5,5,0,0,0,0,0.75,0.75,False,item-cluster bootstrap B=20000 seed=20260805,0.55,0.95,1.0,0.5655175352168389,1.0,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D1,T2,Expert,3,3,0,0,0,0,0.875,0.875,True,"none (descriptive, n<5)",,,1.0,0.43850296824496815,1.0,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D1,T2,Intermediate,9,9,0,0,0,0,0.7916666666666666,0.7916666666666666,False,item-cluster bootstrap B=20000 seed=20260805,0.7361111111111112,0.8611111111111112,1.0,0.7008549515804674,1.0,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D1,T3,Basic,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D1,T3,Expert,8,8,0,0,0,0,0.6,0.6,False,item-cluster bootstrap B=20000 seed=20260805,0.4749999999999999,0.7208333333333333,,,,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D1,T3,Intermediate,6,6,0,0,0,0,0.8833333333333333,0.8833333333333333,False,item-cluster bootstrap B=20000 seed=20260805,0.75,1.0,,,,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D1,T4,Basic,2,2,0,0,0,0,1.0,1.0,True,wilson,0.34238022750666547,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,Kimi-K2.6,D1,T4,Expert,3,3,0,0,0,0,0.6666666666666666,0.6666666666666666,True,wilson,0.2076596008020547,0.9385080552796013,,,,0.6666666666666666,1.0,1.0,,True
+paper-full-20260818-v1,Kimi-K2.6,D1,T4,Intermediate,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,Kimi-K2.6,D2,T1,Basic,13,13,0,0,0,0,0.9230769230769231,0.9230769230769231,False,wilson,0.6668604907890129,0.9862895787574429,,,,,,,,True
+paper-full-20260818-v1,Kimi-K2.6,D2,T1,Expert,6,6,0,0,0,0,1.0,1.0,False,wilson,0.6096657120978477,1.0,,,,,,,,True
+paper-full-20260818-v1,Kimi-K2.6,D2,T1,Intermediate,11,11,0,0,0,0,0.8181818181818182,0.8181818181818182,False,wilson,0.5230194380391643,0.9486323102539135,,,,,,,,True
+paper-full-20260818-v1,Kimi-K2.6,D2,T2,Basic,4,4,0,0,0,0,0.65625,0.65625,True,"none (descriptive, n<5)",,,1.0,0.5101091635454165,1.0,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D2,T2,Intermediate,4,4,0,0,0,0,0.375,0.375,True,"none (descriptive, n<5)",,,0.75,0.3006418425824105,0.9544127391902977,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D2,T3,Expert,5,5,0,0,0,0,0.76,0.76,False,item-cluster bootstrap B=20000 seed=20260805,0.6199999999999999,0.9,,,,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D2,T3,Intermediate,3,3,0,0,0,0,0.8666666666666667,0.8666666666666667,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D2,T4,Basic,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,Kimi-K2.6,D2,T4,Intermediate,3,3,0,0,0,0,1.0,1.0,True,wilson,0.43850296824496815,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,Kimi-K2.6,D3,T1,Basic,14,14,0,0,0,0,0.9285714285714286,0.9285714285714286,False,wilson,0.6853129557584975,0.9872777847521087,,,,,,,,True
+paper-full-20260818-v1,Kimi-K2.6,D3,T1,Expert,9,9,0,0,0,0,1.0,1.0,False,wilson,0.7008549515804674,1.0,,,,,,,,True
+paper-full-20260818-v1,Kimi-K2.6,D3,T1,Intermediate,21,21,0,0,0,0,1.0,1.0,False,wilson,0.8453609810751603,1.0,,,,,,,,True
+paper-full-20260818-v1,Kimi-K2.6,D3,T2,Basic,3,3,0,0,0,0,0.2916666666666667,0.2916666666666667,True,"none (descriptive, n<5)",,,0.3333333333333333,0.06149194472039865,0.7923403991979453,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D3,T2,Expert,5,5,0,0,0,0,0.4,0.4,False,item-cluster bootstrap B=20000 seed=20260805,0.1,0.7,0.6,0.2307242812760194,0.8823792257673483,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D3,T2,Intermediate,7,7,0,0,0,0,0.5357142857142857,0.5357142857142857,False,item-cluster bootstrap B=20000 seed=20260805,0.25,0.7857142857142857,0.8571428571428571,0.486872170725691,0.9743203756552553,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D3,T3,Expert,8,8,0,0,0,0,0.6625,0.6625,False,item-cluster bootstrap B=20000 seed=20260805,0.5333333333333333,0.7958333333333333,,,,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D3,T3,Intermediate,6,6,0,0,0,0,0.8777777777777778,0.8777777777777778,False,item-cluster bootstrap B=20000 seed=20260805,0.7444444444444445,1.0,,,,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D3,T4,Basic,3,3,0,0,0,0,1.0,1.0,True,wilson,0.43850296824496815,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,Kimi-K2.6,D3,T4,Expert,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,Kimi-K2.6,D3,T4,Intermediate,3,3,0,0,0,0,1.0,1.0,True,wilson,0.43850296824496815,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,Kimi-K2.6,D4,T1,Basic,9,9,0,0,0,0,1.0,1.0,False,wilson,0.7008549515804674,1.0,,,,,,,,True
+paper-full-20260818-v1,Kimi-K2.6,D4,T1,Expert,6,6,0,0,0,0,1.0,1.0,False,wilson,0.6096657120978477,1.0,,,,,,,,True
+paper-full-20260818-v1,Kimi-K2.6,D4,T1,Intermediate,18,18,0,0,0,0,1.0,1.0,False,wilson,0.8241207763533503,1.0,,,,,,,,True
+paper-full-20260818-v1,Kimi-K2.6,D4,T2,Basic,3,3,0,0,0,0,0.6666666666666666,0.6666666666666666,True,"none (descriptive, n<5)",,,1.0,0.43850296824496815,1.0,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D4,T2,Expert,3,3,0,0,0,0,0.4166666666666667,0.4166666666666667,True,"none (descriptive, n<5)",,,0.6666666666666666,0.2076596008020547,0.9385080552796013,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D4,T2,Intermediate,5,5,0,0,0,0,0.775,0.775,False,item-cluster bootstrap B=20000 seed=20260805,0.625,0.9,1.0,0.5655175352168389,1.0,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D4,T3,Expert,3,3,0,0,0,0,0.9333333333333332,0.9333333333333332,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D4,T3,Intermediate,7,7,0,0,0,0,0.6285714285714287,0.6285714285714287,False,item-cluster bootstrap B=20000 seed=20260805,0.41428571428571426,0.8285714285714286,,,,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D4,T4,Basic,4,4,0,0,0,0,1.0,1.0,True,wilson,0.5101091635454165,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,Kimi-K2.6,D4,T4,Expert,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,Kimi-K2.6,D4,T4,Intermediate,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,Kimi-K2.6,D5,T1,Basic,8,8,0,0,0,0,1.0,1.0,False,wilson,0.6755924351161318,1.0,,,,,,,,True
+paper-full-20260818-v1,Kimi-K2.6,D5,T1,Expert,10,10,0,0,0,0,1.0,1.0,False,wilson,0.7224672001371218,0.9999999999999999,,,,,,,,True
+paper-full-20260818-v1,Kimi-K2.6,D5,T1,Intermediate,12,12,0,0,0,0,0.9166666666666666,0.9166666666666666,False,wilson,0.646120088858892,0.9851349055950824,,,,,,,,True
+paper-full-20260818-v1,Kimi-K2.6,D5,T2,Expert,2,2,0,0,0,0,0.625,0.625,True,"none (descriptive, n<5)",,,1.0,0.34238022750666547,1.0,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D5,T2,Intermediate,6,6,0,0,0,0,0.4583333333333333,0.4583333333333333,False,item-cluster bootstrap B=20000 seed=20260805,0.1875,0.7291666666666666,0.8333333333333334,0.43649717781353975,0.9699466302516921,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D5,T3,Expert,4,4,0,0,0,0,0.825,0.825,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D5,T3,Intermediate,4,4,0,0,0,0,0.925,0.925,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D5,T4,Basic,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,Kimi-K2.6,D5,T4,Intermediate,3,3,0,0,0,0,1.0,1.0,True,wilson,0.43850296824496815,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,Kimi-K2.6,D6,T1,Basic,8,8,0,0,0,0,1.0,1.0,False,wilson,0.6755924351161318,1.0,,,,,,,,True
+paper-full-20260818-v1,Kimi-K2.6,D6,T1,Expert,10,10,0,0,0,0,1.0,1.0,False,wilson,0.7224672001371218,0.9999999999999999,,,,,,,,True
+paper-full-20260818-v1,Kimi-K2.6,D6,T1,Intermediate,12,12,0,0,0,0,1.0,1.0,False,wilson,0.7575059933447693,1.0,,,,,,,,True
+paper-full-20260818-v1,Kimi-K2.6,D6,T2,Expert,1,1,0,0,0,0,0.875,0.875,True,none (n<2),,,1.0,,,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D6,T2,Intermediate,7,7,0,0,0,0,0.6964285714285714,0.6964285714285714,False,item-cluster bootstrap B=20000 seed=20260805,0.5535714285714286,0.8392857142857143,1.0,0.6456695649333253,1.0,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D6,T3,Expert,4,4,0,0,0,0,0.8999999999999999,0.8999999999999999,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D6,T3,Intermediate,4,4,0,0,0,0,0.85,0.85,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,Kimi-K2.6,D6,T4,Intermediate,4,4,0,0,0,0,1.0,1.0,True,wilson,0.5101091635454165,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,MiniMax-M2.5,D1,T1,Basic,15,15,0,0,0,0,0.9333333333333333,0.9333333333333333,False,wilson,0.7018347012622079,0.988133104506731,,,,,,,,True
+paper-full-20260818-v1,MiniMax-M2.5,D1,T1,Expert,7,7,0,0,0,0,0.8571428571428571,0.8571428571428571,False,wilson,0.486872170725691,0.9743203756552553,,,,,,,,True
+paper-full-20260818-v1,MiniMax-M2.5,D1,T1,Intermediate,20,20,0,0,0,0,1.0,1.0,False,wilson,0.838874841947188,0.9999999999999999,,,,,,,,True
+paper-full-20260818-v1,MiniMax-M2.5,D1,T2,Basic,5,5,0,0,0,0,0.475,0.475,False,item-cluster bootstrap B=20000 seed=20260805,0.15,0.8,0.8,0.37553462976253477,0.9637758913675682,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D1,T2,Expert,3,3,0,0,0,0,0.8333333333333334,0.8333333333333334,True,"none (descriptive, n<5)",,,1.0,0.43850296824496815,1.0,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D1,T2,Intermediate,9,9,0,0,0,0,0.5416666666666666,0.5416666666666666,False,item-cluster bootstrap B=20000 seed=20260805,0.3194444444444444,0.75,0.7777777777777778,0.45258896910699736,0.9367748928821513,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D1,T3,Basic,1,1,0,0,0,0,0.5,0.5,True,none (n<2),,,,,,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D1,T3,Expert,8,8,0,0,0,0,0.5708333333333333,0.5708333333333333,False,item-cluster bootstrap B=20000 seed=20260805,0.45416666666666666,0.6958333333333333,,,,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D1,T3,Intermediate,6,6,0,0,0,0,0.7000000000000001,0.7000000000000001,False,item-cluster bootstrap B=20000 seed=20260805,0.4777777777777777,0.9166666666666666,,,,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D1,T4,Basic,2,2,0,0,0,0,1.0,1.0,True,wilson,0.34238022750666547,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,MiniMax-M2.5,D1,T4,Expert,3,3,0,0,0,0,0.6666666666666666,0.6666666666666666,True,wilson,0.2076596008020547,0.9385080552796013,,,,0.6666666666666666,1.0,1.0,,True
+paper-full-20260818-v1,MiniMax-M2.5,D1,T4,Intermediate,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,MiniMax-M2.5,D2,T1,Basic,13,13,0,0,0,0,0.9230769230769231,0.9230769230769231,False,wilson,0.6668604907890129,0.9862895787574429,,,,,,,,True
+paper-full-20260818-v1,MiniMax-M2.5,D2,T1,Expert,6,6,0,0,0,0,0.8333333333333334,0.8333333333333334,False,wilson,0.43649717781353975,0.9699466302516921,,,,,,,,True
+paper-full-20260818-v1,MiniMax-M2.5,D2,T1,Intermediate,11,11,0,0,0,0,0.9090909090909091,0.9090909090909091,False,wilson,0.6226415635484137,0.9837678271141146,,,,,,,,True
+paper-full-20260818-v1,MiniMax-M2.5,D2,T2,Basic,4,4,0,0,0,0,0.4375,0.4375,True,"none (descriptive, n<5)",,,1.0,0.5101091635454165,1.0,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D2,T2,Intermediate,4,4,0,0,0,0,0.4375,0.4375,True,"none (descriptive, n<5)",,,0.75,0.3006418425824105,0.9544127391902977,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D2,T3,Expert,5,5,0,0,0,0,0.76,0.76,False,item-cluster bootstrap B=20000 seed=20260805,0.66,0.8400000000000001,,,,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D2,T3,Intermediate,3,3,0,0,0,0,0.8666666666666667,0.8666666666666667,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D2,T4,Basic,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,MiniMax-M2.5,D2,T4,Intermediate,3,3,0,0,0,0,0.6666666666666666,0.6666666666666666,True,wilson,0.2076596008020547,0.9385080552796013,,,,0.6666666666666666,0.6666666666666666,1.0,,True
+paper-full-20260818-v1,MiniMax-M2.5,D3,T1,Basic,14,14,0,0,0,0,0.9285714285714286,0.9285714285714286,False,wilson,0.6853129557584975,0.9872777847521087,,,,,,,,True
+paper-full-20260818-v1,MiniMax-M2.5,D3,T1,Expert,9,9,0,0,0,0,1.0,1.0,False,wilson,0.7008549515804674,1.0,,,,,,,,True
+paper-full-20260818-v1,MiniMax-M2.5,D3,T1,Intermediate,21,21,0,0,0,0,0.9523809523809523,0.9523809523809523,False,wilson,0.7733063992587812,0.9915440121901733,,,,,,,,True
+paper-full-20260818-v1,MiniMax-M2.5,D3,T2,Basic,3,3,0,0,0,0,0.4583333333333333,0.4583333333333333,True,"none (descriptive, n<5)",,,0.6666666666666666,0.2076596008020547,0.9385080552796013,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D3,T2,Expert,5,5,0,0,0,0,0.6,0.6,False,item-cluster bootstrap B=20000 seed=20260805,0.3,0.85,0.8,0.37553462976253477,0.9637758913675682,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D3,T2,Intermediate,7,7,0,0,0,0,0.4642857142857143,0.4642857142857143,False,item-cluster bootstrap B=20000 seed=20260805,0.19642857142857142,0.7321428571428571,0.7142857142857143,0.3589344518326274,0.9177810759959406,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D3,T3,Expert,8,8,0,0,0,0,0.5416666666666666,0.5416666666666666,False,item-cluster bootstrap B=20000 seed=20260805,0.39583333333333337,0.675,,,,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D3,T3,Intermediate,6,6,0,0,0,0,0.7555555555555555,0.7555555555555555,False,item-cluster bootstrap B=20000 seed=20260805,0.6888888888888888,0.8333333333333334,,,,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D3,T4,Basic,3,3,0,0,0,0,0.6666666666666666,0.6666666666666666,True,wilson,0.2076596008020547,0.9385080552796013,,,,0.6666666666666666,0.6666666666666666,1.0,,True
+paper-full-20260818-v1,MiniMax-M2.5,D3,T4,Expert,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,MiniMax-M2.5,D3,T4,Intermediate,3,3,0,0,0,0,0.6666666666666666,0.6666666666666666,True,wilson,0.2076596008020547,0.9385080552796013,,,,0.6666666666666666,0.6666666666666666,1.0,,True
+paper-full-20260818-v1,MiniMax-M2.5,D4,T1,Basic,9,9,0,0,0,0,1.0,1.0,False,wilson,0.7008549515804674,1.0,,,,,,,,True
+paper-full-20260818-v1,MiniMax-M2.5,D4,T1,Expert,6,6,0,0,0,0,1.0,1.0,False,wilson,0.6096657120978477,1.0,,,,,,,,True
+paper-full-20260818-v1,MiniMax-M2.5,D4,T1,Intermediate,18,18,0,0,0,0,1.0,1.0,False,wilson,0.8241207763533503,1.0,,,,,,,,True
+paper-full-20260818-v1,MiniMax-M2.5,D4,T2,Basic,3,3,0,0,0,0,0.4166666666666667,0.4166666666666667,True,"none (descriptive, n<5)",,,1.0,0.43850296824496815,1.0,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D4,T2,Expert,3,3,0,0,0,0,0.25,0.25,True,"none (descriptive, n<5)",,,0.3333333333333333,0.06149194472039865,0.7923403991979453,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D4,T2,Intermediate,5,5,0,0,0,0,0.625,0.625,False,item-cluster bootstrap B=20000 seed=20260805,0.5,0.725,1.0,0.5655175352168389,1.0,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D4,T3,Expert,3,3,0,0,0,0,0.8333333333333334,0.8333333333333334,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D4,T3,Intermediate,7,7,0,0,0,0,0.5142857142857142,0.5142857142857142,False,item-cluster bootstrap B=20000 seed=20260805,0.29999999999999993,0.7000000000000001,,,,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D4,T4,Basic,4,4,0,0,0,0,0.75,0.75,True,wilson,0.3006418425824105,0.9544127391902977,,,,0.75,0.75,1.0,,True
+paper-full-20260818-v1,MiniMax-M2.5,D4,T4,Expert,1,1,0,0,0,0,0.0,0.0,True,none (n<2),,,,,,0.0,0.0,1.0,,True
+paper-full-20260818-v1,MiniMax-M2.5,D4,T4,Intermediate,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,MiniMax-M2.5,D5,T1,Basic,8,8,0,0,0,0,1.0,1.0,False,wilson,0.6755924351161318,1.0,,,,,,,,True
+paper-full-20260818-v1,MiniMax-M2.5,D5,T1,Expert,10,10,0,0,0,0,1.0,1.0,False,wilson,0.7224672001371218,0.9999999999999999,,,,,,,,True
+paper-full-20260818-v1,MiniMax-M2.5,D5,T1,Intermediate,12,12,0,0,0,0,0.8333333333333334,0.8333333333333334,False,wilson,0.5519691377470349,0.9530348578161448,,,,,,,,True
+paper-full-20260818-v1,MiniMax-M2.5,D5,T2,Expert,2,2,0,0,0,0,0.5625,0.5625,True,"none (descriptive, n<5)",,,1.0,0.34238022750666547,1.0,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D5,T2,Intermediate,6,6,0,0,0,0,0.5,0.5,False,item-cluster bootstrap B=20000 seed=20260805,0.2916666666666667,0.6666666666666666,1.0,0.6096657120978477,1.0,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D5,T3,Expert,4,4,0,0,0,0,0.6,0.6,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D5,T3,Intermediate,4,4,0,0,0,0,0.8250000000000001,0.8250000000000001,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D5,T4,Basic,1,1,0,0,0,0,1.0,1.0,True,none (n<2),,,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,MiniMax-M2.5,D5,T4,Intermediate,3,3,0,0,0,0,1.0,1.0,True,wilson,0.43850296824496815,1.0,,,,1.0,1.0,1.0,,True
+paper-full-20260818-v1,MiniMax-M2.5,D6,T1,Basic,8,8,0,0,0,0,1.0,1.0,False,wilson,0.6755924351161318,1.0,,,,,,,,True
+paper-full-20260818-v1,MiniMax-M2.5,D6,T1,Expert,10,10,0,0,0,0,1.0,1.0,False,wilson,0.7224672001371218,0.9999999999999999,,,,,,,,True
+paper-full-20260818-v1,MiniMax-M2.5,D6,T1,Intermediate,12,12,0,0,0,0,1.0,1.0,False,wilson,0.7575059933447693,1.0,,,,,,,,True
+paper-full-20260818-v1,MiniMax-M2.5,D6,T2,Expert,1,1,0,0,0,0,0.75,0.75,True,none (n<2),,,1.0,,,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D6,T2,Intermediate,7,7,0,0,0,0,0.5357142857142857,0.5357142857142857,False,item-cluster bootstrap B=20000 seed=20260805,0.4107142857142857,0.6785714285714286,1.0,0.6456695649333253,1.0,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D6,T3,Expert,4,4,0,0,0,0,0.925,0.925,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D6,T3,Intermediate,4,4,0,0,0,0,0.825,0.825,True,"none (descriptive, n<5)",,,,,,,,,0.0,True
+paper-full-20260818-v1,MiniMax-M2.5,D6,T4,Intermediate,4,4,0,0,0,0,1.0,1.0,True,wilson,0.5101091635454165,1.0,,,,1.0,1.0,1.0,,True

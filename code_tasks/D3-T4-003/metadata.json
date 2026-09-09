@@ -1,0 +1,25 @@
+{
+  "id": "D3-T4-003",
+  "domain": "D3",
+  "subdomain": null,
+  "task_type": "T4",
+  "difficulty": "Intermediate",
+  "sub_topic": "Montgomery algorithm",
+  "function_signature": "def montgomery_modmul(x: int, y: int, N: int, N_prime: int, R: int) -> int",
+  "expected_pass_rate": ">= 0.85 (17 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "N odd",
+    "R a power of 2 and > N",
+    "the (x*y)%N shortcut is banned",
+    "implement it in two steps: U = T·N' mod R, then result = (T+U·N)//R",
+    "reduce into [0, N)"
+  ],
+  "source": "Montgomery 1985; 《密码工程》(Cryptographic Engineering, in Chinese) Ch.4 §4; HAC §14.3.2",
+  "author": "Zhou Wenquan",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-05-27",
+  "test_count": 17,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.85
+}

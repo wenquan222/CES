@@ -1,0 +1,26 @@
+{
+  "id": "D3-T4-005",
+  "domain": "D3",
+  "subdomain": null,
+  "task_type": "T4",
+  "difficulty": "Intermediate",
+  "sub_topic": "AES implementation",
+  "function_signature": "def aes_ct_sbox(byte: int) -> int",
+  "expected_pass_rate": ">= 0.85 (17 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "No lookup table of any kind may be used (including a hard-coded S-box array) — a pure bitwise implementation",
+    "if/else branches are not allowed (branchless); selection must be done by bit operations",
+    "The GF(2^8) irreducible polynomial: x^8+x^4+x^3+x+1 (0x11B)",
+    "The affine transformation: b'i = bi XOR b(i+4)mod8 XOR b(i+5)mod8 XOR b(i+6)mod8 XOR b(i+7)mod8 XOR ci, c=0x63",
+    "Inversion in GF(2^8) may use Fermat's little theorem inv(x)=x^254 mod p(x), the extended Euclidean algorithm, or a tower field decomposition",
+    "The input range is 0-255 and the output 0-255; anything outside raises ValueError"
+  ],
+  "source": "FIPS PUB 197 §5.1.1 S-box; Canright CHES 2005 (tower field); 《密码工程》(Cryptographic Engineering, in Chinese) Ch.8 §4",
+  "author": "Liang Jing",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-06-10",
+  "test_count": 17,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.85
+}

@@ -1,0 +1,21 @@
+{
+  "id": "D6-T4-001",
+  "domain": "D6",
+  "subdomain": null,
+  "task_type": "T4",
+  "difficulty": "Intermediate",
+  "sub_topic": "Secret sharing and backup",
+  "function_signature": "def shamir_split(secret, t, n, prime, coeffs=None) -> list; def shamir_reconstruct(shares, prime) -> int",
+  "expected_pass_rate": ">= 0.85 (13 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "No third-party cryptographic/mathematical library; modular inverse by Fermat's little theorem; polynomials over GF(p) + Lagrange interpolation; 1<=t<=n, prime>n, coeffs of length t-1, anything invalid raises ValueError; determinism"
+  ],
+  "source": "Shamir, How to Share a Secret, CACM 1979",
+  "author": "Zhou Wenquan",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-06-09",
+  "test_count": 13,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.85
+}

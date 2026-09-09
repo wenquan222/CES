@@ -1,0 +1,21 @@
+{
+  "id": "D2-T4-004",
+  "domain": "D2",
+  "subdomain": null,
+  "task_type": "T4",
+  "difficulty": "Intermediate",
+  "sub_topic": "FSA / metastability",
+  "function_signature": "def fsa_recover(plaintexts, sensitivities) -> int",
+  "expected_pass_rate": ">= 0.85 (12 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "numpy/scipy are banned, HW and Pearson must be implemented yourself; the signed maximum positive correlation must be used (otherwise k and k^0xFF are indistinguishable); return 0 when the variance is 0; unequal lengths / fewer than 2 samples / out of range raise ValueError; determinism"
+  ],
+  "source": "Li-Sakiyama-Gomisawa et al., Fault Sensitivity Analysis, CHES 2010",
+  "author": "Zhou Wenquan",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-06-19",
+  "test_count": 12,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.85
+}

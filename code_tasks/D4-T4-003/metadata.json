@@ -1,0 +1,24 @@
+{
+  "id": "D4-T4-003",
+  "domain": "D4",
+  "subdomain": "SCA",
+  "task_type": "T4",
+  "difficulty": "Basic",
+  "sub_topic": "Boolean masking",
+  "function_signature": "def xor_sharewise(a: bytes, b: bytes) -> bytes",
+  "expected_pass_rate": ">= 0.95 (13 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "source": "《密码工程》(Cryptographic Engineering, in Chinese); Herbst-Oswald ACNS 2006",
+  "author": "Liang Jing",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-06-16",
+  "test_count": 13,
+  "constraints": [
+    "The inputs have the same length, or ValueError",
+    "byte-wise XOR",
+    "no cryptographic library is called",
+    "determinism"
+  ],
+  "language": "en",
+  "expected_pass_rate_numeric": 0.95
+}

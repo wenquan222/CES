@@ -1,0 +1,25 @@
+{
+  "id": "D3-T4-007",
+  "domain": "D3",
+  "subdomain": null,
+  "task_type": "T4",
+  "difficulty": "Expert",
+  "sub_topic": "Public-key software implementation",
+  "function_signature": "def sliding_window_modexp(base: int, exponent: int, modulus: int, window_size: int) -> int",
+  "expected_pass_rate": ">= 0.7 (18 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "Using pow(base, exponent, modulus) directly is not allowed",
+    "The steps of the sliding window algorithm:\n   a) precompute base^1, base^3, ..., base^(2^k-1) mod modulus (odd powers only)\n   b) scan the binary representation of exponent from the high bits down\n   c) on a 0: result = result^2 mod modulus, the window slides 1 bit\n   d) on a 1: find the longest window (at most k bits, ending in a 1) → result = result^(2^wlen) * precomputed[win_val] mod modulus",
+    "precomputed uses the recurrence base^(odd)=base^(odd-2)*base^2 mod modulus",
+    "The caller guarantees exponent >= 0, modulus > 0 and window_size >= 1 (these are input preconditions and the implementation need not validate them)",
+    "The special case modulus==1 returns 0"
+  ],
+  "source": "《密码工程》(Cryptographic Engineering, in Chinese) Ch.4 §3; HAC §14.6.1 (Sliding Window); Kocher CRYPTO 1996",
+  "author": "Liang Jing",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-06-10",
+  "test_count": 18,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.7
+}

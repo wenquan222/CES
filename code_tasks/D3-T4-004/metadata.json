@@ -1,0 +1,25 @@
+{
+  "id": "D3-T4-004",
+  "domain": "D3",
+  "subdomain": null,
+  "task_type": "T4",
+  "difficulty": "Basic",
+  "sub_topic": "Public-key software implementation",
+  "function_signature": "def karatsuba_mul(x: int, y: int) -> int",
+  "expected_pass_rate": ">= 0.95 (16 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "Computing with x*y directly is not allowed (only in the base case)",
+    "The Karatsuba divide-and-conquer formulas must be used: z2=karatsuba_mul(x1,y1), z0=karatsuba_mul(x0,y0), z1=karatsuba_mul(x1+x0,y1+y0)-z2-z0, result=(z2<<(2*k))+(z1<<k)+z0",
+    "At each level of recursion n=max(x.bit_length(), y.bit_length()), k=n//2",
+    "Base case: fall back to direct multiplication when x<1000 or y<1000",
+    "The inputs are non-negative integers; a negative number should raise ValueError"
+  ],
+  "source": "Karatsuba-Ofman 1962; 《密码工程》(Cryptographic Engineering, in Chinese) Ch.4 §2",
+  "author": "Liang Jing",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-06-10",
+  "test_count": 16,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.95
+}

@@ -1,0 +1,24 @@
+{
+  "id": "D3-T4-002",
+  "domain": "D3",
+  "subdomain": null,
+  "task_type": "T4",
+  "difficulty": "Intermediate",
+  "sub_topic": "Public-key software implementation",
+  "function_signature": "def modexp_square_multiply(x: int, d: int, N: int) -> int",
+  "expected_pass_rate": ">= 0.85 (16 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "The pow(x,d,N) shortcut is banned",
+    "the bits of d must be processed one at a time",
+    "left-to-right and right-to-left square-and-multiply, window methods and any other correct self-written algorithm are all acceptable",
+    "RSA-2048 < 5s"
+  ],
+  "source": "《密码工程》(Cryptographic Engineering, in Chinese) Ch.4 §3; HAC §14.6; FIPS PUB 186-5",
+  "author": "Zhou Wenquan",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-05-27",
+  "test_count": 16,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.85
+}

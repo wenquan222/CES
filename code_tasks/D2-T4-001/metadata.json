@@ -1,0 +1,26 @@
+{
+  "id": "D2-T4-001",
+  "domain": "D2",
+  "subdomain": null,
+  "task_type": "T4",
+  "difficulty": "Basic",
+  "sub_topic": "Fault pattern identification",
+  "function_signature": "def classify_fault_pattern(correct_cipher: bytes, faulty_cipher: bytes) -> dict",
+  "expected_pass_rate": ">= 0.95 (15 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "Both inputs are 16 bytes",
+    "the four diagonals must be derived from the definition of ShiftRows yourself",
+    "ciphertext values must not be hard-coded",
+    "the signature of a single-byte fault in the penultimate round is \"forming a ShiftRows diagonal\", not \"lying in the same column\"",
+    "4 bytes in the same column go to column/unknown",
+    "the returned fields must be complete with diff_bytes in ascending order"
+  ],
+  "source": "Piret-Quisquater CHES 2003; FIPS PUB 197, the definition of ShiftRows",
+  "author": "Liang Jing",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-07-30",
+  "test_count": 15,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.95
+}

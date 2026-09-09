@@ -1,0 +1,21 @@
+{
+  "id": "D5-T4-002",
+  "domain": "D5",
+  "subdomain": null,
+  "task_type": "T4",
+  "difficulty": "Basic",
+  "sub_topic": "RNG entropy assessment",
+  "function_signature": "def min_entropy(samples) -> float",
+  "expected_pass_rate": ">= 0.95 (12 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "H_min=-log2(max p); return bits/sample; no external entropy library is called; empty input raises ValueError; support any hashable type; determinism"
+  ],
+  "source": "NIST SP 800-90B; 《密码工程》(Cryptographic Engineering, in Chinese) Ch.12",
+  "author": "Zhou Wenquan",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-06-09",
+  "test_count": 12,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.95
+}

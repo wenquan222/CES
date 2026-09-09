@@ -1,0 +1,24 @@
+{
+  "id": "D4-T4-001",
+  "domain": "D4",
+  "subdomain": "FI",
+  "task_type": "T4",
+  "difficulty": "Basic",
+  "sub_topic": "Infection",
+  "function_signature": "def infect_or_pass(state_a: bytes, state_b: bytes, mask: bytes) -> bytes",
+  "expected_pass_rate": ">= 0.95 (14 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "constant-time (no if comparison)",
+    "no secret-dependent control flow",
+    "branch-free conditional selection using bitmask + XOR",
+    "validation of the 16-byte inputs"
+  ],
+  "source": "Lomné-Roche-Thillard *On the Need of Randomness in Fault Attack Countermeasures*, FDTC 2012; 《密码工程》(Cryptographic Engineering, in Chinese) Ch.11 §4",
+  "author": "Zhou Wenquan",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-05-27",
+  "test_count": 14,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.95
+}

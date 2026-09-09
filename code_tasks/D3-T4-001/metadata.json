@@ -1,0 +1,24 @@
+{
+  "id": "D3-T4-001",
+  "domain": "D3",
+  "subdomain": null,
+  "task_type": "T4",
+  "difficulty": "Basic",
+  "sub_topic": "Constant-time programming",
+  "function_signature": "def ct_select(cond: int, a: int, b: int) -> int",
+  "expected_pass_rate": ">= 0.95 (10 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "if / ternary / secret-dependent loops are banned",
+    "[cond] indexing is banned",
+    "only arithmetic/bitwise operations are allowed",
+    "a cond other than 0/1 raises ValueError"
+  ],
+  "source": "《密码工程》(Cryptographic Engineering, in Chinese) Ch.5 §2; OpenSSL constant_time.h; Coda Hale 2009 *A Lesson in Timing Attacks*",
+  "author": "Zhou Wenquan",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-05-27",
+  "test_count": 10,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.95
+}

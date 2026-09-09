@@ -1,0 +1,21 @@
+{
+  "id": "D5-T4-003",
+  "domain": "D5",
+  "subdomain": null,
+  "task_type": "T4",
+  "difficulty": "Intermediate",
+  "sub_topic": "RNG statistical testing",
+  "function_signature": "def monobit_frequency_test(bits) -> float",
+  "expected_pass_rate": ">= 0.85 (13 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "math.erfc/scipy.special.erfc must not be called; implement erfc yourself by numerical approximation; numpy/scipy banned; an empty sequence or an element outside {0,1} raises ValueError; the P-value returned lies in [0,1]; determinism"
+  ],
+  "source": "NIST SP 800-22 Rev.1a §2.1 Frequency (Monobit) Test; 《密码工程》(Cryptographic Engineering, in Chinese) Ch.12",
+  "author": "Zhou Wenquan",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-06-19",
+  "test_count": 13,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.85
+}

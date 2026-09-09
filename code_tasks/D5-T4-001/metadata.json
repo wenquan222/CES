@@ -1,0 +1,21 @@
+{
+  "id": "D5-T4-001",
+  "domain": "D5",
+  "subdomain": null,
+  "task_type": "T4",
+  "difficulty": "Intermediate",
+  "sub_topic": "TVLA methodology",
+  "function_signature": "def compute_tvla(fixed_traces, random_traces) -> tuple[list[float], list[int]]",
+  "expected_pass_rate": ">= 0.85 (12 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "Implement the Welch formula yourself (scipy/numpy banned); unbiased variance ddof=1; unequal variances; support unequal sample counts in the two groups; THRESHOLD=4.5; an empty group / 0 sample points / inconsistent lengths / a single trace raise ValueError; determinism"
+  ],
+  "source": "Goodwill et al., NIST NIAP 2011; Schneider-Moradi, CHES 2015; ISO/IEC 17825:2024",
+  "author": "Zhou Wenquan",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-06-09",
+  "test_count": 12,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.85
+}

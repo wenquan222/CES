@@ -1,0 +1,21 @@
+{
+  "id": "D5-T4-004",
+  "domain": "D5",
+  "subdomain": null,
+  "task_type": "T4",
+  "difficulty": "Intermediate",
+  "sub_topic": "Leakage detection statistics",
+  "function_signature": "def compute_nicv(traces, labels) -> list[float]",
+  "expected_pass_rate": ">= 0.85 (12 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "numpy/scipy banned, implement the group means and variances yourself; NICV=Var(E[L|X])/Var(L) with the between-group variance weighted by group frequency; NICV=0.0 at a point where the total variance is 0; empty / unequal lengths / unequal trace lengths / 0 points raise ValueError; return list[float] with each point ∈[0,1]; determinism"
+  ],
+  "source": "Bhasin-Danger-Guilley-Najm, NICV, 2014; 《密码工程》(Cryptographic Engineering, in Chinese), the side-channel evaluation chapter",
+  "author": "Zhou Wenquan",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-06-19",
+  "test_count": 12,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.85
+}

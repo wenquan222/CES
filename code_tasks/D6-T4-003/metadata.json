@@ -1,0 +1,21 @@
+{
+  "id": "D6-T4-003",
+  "domain": "D6",
+  "subdomain": null,
+  "task_type": "T4",
+  "difficulty": "Intermediate",
+  "sub_topic": "Root of trust and measurement",
+  "function_signature": "def pcr_extend(initial_pcr, measurements) -> bytes",
+  "expected_pass_rate": ">= 0.85 (10 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "Use hashlib.sha256 to implement PCR_new=SHA256(PCR_old‖measurement); initial_pcr must be 32 bytes and measurement must be bytes, or ValueError; an empty list returns the original value; return 32 bytes; deterministic and order-sensitive"
+  ],
+  "source": "the TCG TPM 2.0 specification (ISO/IEC 11889); Measured Boot / remote attestation",
+  "author": "Zhou Wenquan",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-06-19",
+  "test_count": 10,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.85
+}

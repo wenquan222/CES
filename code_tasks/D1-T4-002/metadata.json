@@ -1,0 +1,24 @@
+{
+  "id": "D1-T4-002",
+  "domain": "D1",
+  "subdomain": null,
+  "task_type": "T4",
+  "difficulty": "Basic",
+  "sub_topic": "SNR computation",
+  "function_signature": "def compute_snr(traces: np.ndarray, intermediate_values: np.ndarray) -> np.ndarray",
+  "expected_pass_rate": ">= 0.95 (13 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "No for-loop over the N traces",
+    "input traces of shape (N, T), intermediate_values of shape (N,) with discrete values",
+    "return an SNR curve of shape (T,)",
+    "classes with fewer than 2 samples must be skipped"
+  ],
+  "source": "Mangard §4.3.2, the definition of SNR; Standaert-Malkin-Yung EUROCRYPT 2009",
+  "author": "Zhou Wenquan",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-05-21",
+  "test_count": 13,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.95
+}

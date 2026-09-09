@@ -1,0 +1,24 @@
+{
+  "id": "D4-T4-006",
+  "domain": "D4",
+  "subdomain": "FI",
+  "task_type": "T4",
+  "difficulty": "Basic",
+  "sub_topic": "Error detection",
+  "function_signature": "def parity_check(data: bytes, expected_parity: int) -> bool",
+  "expected_pass_rate": ">= 0.95 (10 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "source": "FIPS 140-3 §7.6; 《密码工程》(Cryptographic Engineering, in Chinese) Ch.11 §4",
+  "author": "Liang Jing",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-06-16",
+  "test_count": 10,
+  "constraints": [
+    "Compute the parity bit of the input byte string (the least significant bit after XORing all the bytes)",
+    "compare with expected_parity (0 or 1)",
+    "a constant-time implementation (no if comparison followed by a return)",
+    "no cryptographic library is called"
+  ],
+  "language": "en",
+  "expected_pass_rate_numeric": 0.95
+}

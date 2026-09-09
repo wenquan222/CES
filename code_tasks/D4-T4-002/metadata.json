@@ -1,0 +1,25 @@
+{
+  "id": "D4-T4-002",
+  "domain": "D4",
+  "subdomain": "SCA",
+  "task_type": "T4",
+  "difficulty": "Basic",
+  "sub_topic": "AES masking",
+  "function_signature": "def gen_masked_sbox(m_in: int, m_out: int) -> list[int]",
+  "expected_pass_rate": ">= 0.95 (12 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "The returned list has length 256",
+    "it satisfies masked[x^m_in] ^ m_out == S[x]",
+    "m_in/m_out out of range raise ValueError",
+    "no cryptographic library may be called",
+    "determinism"
+  ],
+  "source": "Herbst-Oswald-Mangard *An AES smart card implementation resistant to power analysis attacks*, ACNS 2006; FIPS PUB 197 Figure 7; 《密码工程》(Cryptographic Engineering, in Chinese)",
+  "author": "Zhou Wenquan",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-05-27",
+  "test_count": 12,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.95
+}

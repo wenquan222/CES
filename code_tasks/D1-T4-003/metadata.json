@@ -1,0 +1,24 @@
+{
+  "id": "D1-T4-003",
+  "domain": "D1",
+  "subdomain": null,
+  "task_type": "T4",
+  "difficulty": "Expert",
+  "sub_topic": "Template attack implementation",
+  "function_signature": "def template_attack_match(test_trace: np.ndarray, templates: Dict[int, Tuple[np.ndarray, np.ndarray]]) -> np.ndarray",
+  "expected_pass_rate": ">= 0.7 (13 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "The templates input is a dict[intermediate value 0-255 -> (mean of shape (D,), cov of shape (D,D))]",
+    "return a (256,) log-likelihood array",
+    "pooled covariance or Tikhonov regularization must be used to avoid a singular matrix",
+    "numerical stability: use log-det + Cholesky rather than a direct inv"
+  ],
+  "source": "Chari-Rao-Rohatgi CHES 2002; Choudary-Kuhn CARDIS 2013",
+  "author": "Zhou Wenquan",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-05-21",
+  "test_count": 13,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.7
+}

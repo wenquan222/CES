@@ -1,0 +1,25 @@
+{
+  "id": "D3-T4-006",
+  "domain": "D3",
+  "subdomain": null,
+  "task_type": "T4",
+  "difficulty": "Basic",
+  "sub_topic": "Public-key software implementation",
+  "function_signature": "def crt_rsa_sign(m: int, p: int, q: int, dp: int, dq: int, qinv: int) -> int",
+  "expected_pass_rate": ">= 0.95 (16 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "constraints": [
+    "A full-value modular exponentiation to the modulus p*q directly (such as pow(m, d, p*q)) is not allowed — the three CRT steps must be followed",
+    "The modular exponentiation must be implemented yourself (pow must not be used for it); square-and-multiply, window methods and any other correct form are acceptable",
+    "The CRT formulas: Sp=m^dp mod p, Sq=m^dq mod q, S=Sq+q*((Sp-Sq)*qinv mod p) mod (p*q)",
+    "Sp-Sq may be negative and must be handled correctly with (Sp-Sq) % p",
+    "p, q, dp, dq and qinv are positive integers; m satisfies 0<=m<p*q"
+  ],
+  "source": "《密码工程》(Cryptographic Engineering, in Chinese) Ch.4 §5; HAC §14.71; PKCS#1 v2.2 §5.1.2",
+  "author": "Liang Jing",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-06-10",
+  "test_count": 16,
+  "language": "en",
+  "expected_pass_rate_numeric": 0.95
+}

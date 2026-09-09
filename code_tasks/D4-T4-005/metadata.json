@@ -1,0 +1,25 @@
+{
+  "id": "D4-T4-005",
+  "domain": "D4",
+  "subdomain": "SCA",
+  "task_type": "T4",
+  "difficulty": "Expert",
+  "sub_topic": "Public-key countermeasures",
+  "function_signature": "def montgomery_ladder(k: int, gx: int, gy: int, p: int, a: int) -> tuple",
+  "expected_pass_rate": ">= 0.7 (15 test cases in all; the main metric is task_success, scored 0 or 1 for the whole task: it is 1 only if no blocking failure occurs and every functional case passes — the registered process and performance cases are excluded from the functional set but block on failure; the pass-rate threshold on the left and the per-case pass rate are recorded as diagnostics only)",
+  "source": "Joye-Yen *The Montgomery Powering Ladder*, CHES 2002; 《密码工程》(Cryptographic Engineering, in Chinese); Washington *Elliptic Curves* Ch 2",
+  "author": "Liang Jing",
+  "reviewed_by": "Zhou Wenquan",
+  "version": "v20260807",
+  "last_updated": "2026-06-16",
+  "test_count": 15,
+  "constraints": [
+    "Implement the Montgomery Ladder elliptic curve scalar multiplication of Joye-Yen CHES 2002",
+    "every step performs the same double+add operation pattern whether bit=0 or 1",
+    "use a Weierstrass curve y²=x³+ax+b mod p, with the point at infinity represented by (0,0)",
+    "no external cryptographic library is called",
+    "k >= 0; k = 0 returns the point at infinity (0, 0) (as in the problem statement)"
+  ],
+  "language": "en",
+  "expected_pass_rate_numeric": 0.7
+}
