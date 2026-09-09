@@ -924,7 +924,7 @@ Hunyuan-A13B,D3-T2-008,0,T2,D3,Expert,0.75,False,False,,,True,0.75,1,0.0,True,,,
 Hunyuan-A13B,D3-T2-009,0,T2,D3,Intermediate,0.875,False,False,,,True,0.875,1,0.0,True,,,,,,,,,midtier-20260828-v1,True
 Hunyuan-A13B,D3-T2-010,0,T2,D3,Expert,0.25,False,False,,,True,0.25,1,0.0,True,,,,,,,,,midtier-20260828-v1,True
 Hunyuan-A13B,D3-T2-011,0,T2,D3,Intermediate,0.625,False,False,,,True,0.625,1,0.0,True,,,,,,,,,midtier-20260828-v1,True
-Hunyuan-A13B,D3-T2-012,0,T2,D3,Basic,0.0,True,False,,model_output_not_json;model_verdict_unparseable;reason_missing;verdict_unparseable,False,0.625,1,0.0,True,,,,,,,,,midtier-20260828-v1,True
+Hunyuan-A13B,D3-T2-012,0,T2,D3,Basic,0.625,True,False,,model_output_not_json;reason_missing;verdict_from_field_regex,True,0.625,1,0.0,True,,,,,,,,,midtier-20260828-v1,True
 Hunyuan-A13B,D3-T2-013,0,T2,D3,Expert,0.75,False,False,,,True,0.75,1,0.0,True,,,,,,,,,midtier-20260828-v1,True
 Hunyuan-A13B,D3-T2-014,0,T2,D3,Expert,0.125,False,False,,,True,0.125,1,0.0,True,,,,,,,,,midtier-20260828-v1,True
 Hunyuan-A13B,D3-T2-015,0,T2,D3,Intermediate,0.0,False,False,,,False,0.0,1,0.0,True,,,,,,,,,midtier-20260828-v1,True
