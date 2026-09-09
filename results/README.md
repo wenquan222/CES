@@ -23,7 +23,6 @@ The paper pools the eleven models; every number in it can be recomputed from the
 | `reason_score_normalized` | T2 only: mean of the four justification dimensions, kept even when the gate is 0 |
 | `judge_repeats`, `judge_score_range`, `judge_all_identical`, `judge_dim_identical_fraction` | T2/T3 only: bookkeeping of the judge pass (one repeat in the main tables) |
 | `t4_passed`, `t4_total`, `t4_functional_pass_rate`, `t4_meets_threshold`, `t4_performance_failed`, `t4_failure_class`, `t4_pass_at_1` | T4 only: per-case outcomes and the grader's failure class (`FUNCTIONAL_ASSERTION`, `RUNTIME_ERROR`, `PROCESS_CONSTRAINT`, `TAMPERING_REJECTED`, `SYNTAX_OR_IMPORT`, or `OK`) |
-| `contamination_risk` | `flagged` if a phrase-match screen against the item's cited titles, or manual review, suggested the answer may be exposed through its source; not used in the paper |
 | `run_id`, `paper_eligible` | Provenance; `paper_eligible` is True for every row |
 
 ## `<run>.summary_scores.csv`, one row per model, sub-domain, task type and difficulty cell

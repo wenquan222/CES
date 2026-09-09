@@ -31,6 +31,7 @@ Four task types test different competences:
 | `code_tasks/<item id>/` | One folder per code task: `problem.md` (the statement shown to the model), `metadata.json` (the fields that enter the prompt and the test count), `test.py` (the graded pytest suite), `solution.py` (a reference implementation). |
 | `prompts/prompts.py` | The prompt templates used for every task type, for the answering model and for the judge, exactly as run. Standalone: `t1_prompt`, `t2_answer_prompt`, `t2_judge_prompt`, `t3_answer_prompt`, `t3_judge_prompt`, `t4_prompt`. |
 | `results/` | Per-item scores of the eleven evaluated models, one row per model and item, plus per-cell summaries. See `results/README.md` for the columns. |
+| `iot_labels.csv` | The IoT-relevance level of every item: `L2` (set on a concrete device), `L1` (device-relevant knowledge, no device in the stem), `L0` (general). |
 
 ### Item fields
 
